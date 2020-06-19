@@ -216,6 +216,8 @@ void gameLoop() {
 	printf("Type in your name: ");
 	scanf("%s", &p.username);
 	
+	p.victories = 0;
+	
 	while (1 == 1) {
 		init();
 		while (end == 0) {
